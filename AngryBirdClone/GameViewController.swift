@@ -26,8 +26,7 @@ class GameViewController: UIViewController {
             
             view.ignoresSiblingOrder = true
             
-            view.showsFPS = true
-            view.showsNodeCount = true
+            view.showsPhysics = false // etki alanı etrafında debug yaparken işe yarıyor aslında
         }
     }
 
